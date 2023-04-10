@@ -67,7 +67,7 @@ const Home = () => {
                 <div className='inline-flex flex-col items-center justify-center w-full h-full'>
                     <h1>Featured Jobs</h1>
                     <p className='mt-2 mb-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div>
+                    <div className='grid grid-cols-2 justify-items-center mb-4 gap-4'>
                         {
                             cards.map(card =>
                                 <Card
@@ -79,6 +79,7 @@ const Home = () => {
                                 )
                         }
                     </div>
+                    <button className='mb-3 bg-blue-400'>See All</button>
                     
 
 
