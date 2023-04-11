@@ -2,22 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetail = () => {
-    const dynamic = useParams()
-    console.log(dynamic.cardid)
-
-    const [Data, setData] = useState({})
-    useEffect(()=>{
-        fetch(`jobs.json/${dynamic.cardid}`)
-        .then(res => res.json())
-        .then(data => setData(data.Data[0]))
+    const {Id} = useParams();
+     const [Data, setData] = useState({})
+     const jobs = useLoaderData();
+  
+    useEffect(() => {
+        if(jobs){
+            let detail = jobs.find(job=> job.id==Id);
+            setData(detail);
+        }
     },[])
-    // const card = useLoaderData()
-    // console.log(card);
     return (
          <div>
-        {/* //     <h3>Everything about this </h3>
-            <h4>{card.company_name}</h4> */}
-            <h4>{Data.company_name}</h4>
+            <h2>{Data.company_name}</h2>
+            <h2>{Data.educational_requirements}</h2>
+            <h4>{Data.job_responsibility}</h4>
         </div>
     );
 };
