@@ -5,38 +5,38 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 const Statistics = () => {
     const data = [
         {
-          name: 'Assignment-1',
+          name:'ass-1',
           Mark:55,
           AvgMark: 60,
         },
         {
-            name: 'Assignment-2',
+            name: 'ass-2',
           Mark:56,
           AvgMark: 60,
           
         },
         {
-            name: 'Assignment-3',
+            name: 'ass-3',
             Mark:60,
             AvgMark: 60,
         },
         {
-            name: 'Assignment-4',
+            name: 'ass-4',
             Mark:43,
             AvgMark: 60,
         },
         {
-            name: 'Assignment-5',
+            name: 'ass-5',
             Mark:53,
             AvgMark: 60,
         },
         {
-            name: 'Assignment-6',
+            name: 'ass-6',
             Mark:48,
             AvgMark: 60,
         },
         {
-            name: 'Assignment-7',
+            name: 'ass-7',
             Mark:60,
             AvgMark: 60,
         },
