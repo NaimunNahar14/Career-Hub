@@ -79,7 +79,7 @@ const Home = () => {
                                 )
                         }
                     </div>
-                    <button className='mb-3 bg-blue-400'>See All</button>
+                    <button  className='mb-3 bg-blue-400'>See All</button>
                     
 
 
