@@ -1,118 +1,98 @@
 [
-    
-        {
-            "id": "1",
-            "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
-            "job_title": "Software Engineer",
-            "company_name": "Acme Corporation",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $120,000",
-            "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
-            "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
-            "experiences": "3+ years of professional experience in software engineering.",
-            "contact_information": {
-              "phone": "555-555-1234",
-              "email": "jobs@acmecorp.com"
-            }
-          },
-          {
-            "id": "2",
-            "company_logo": "../src/assets/Logo/google-1-1 1.png",
-            "job_title": "Web developer",
-            "company_name": "Acme Corporation",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $120,000",
-            "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
-            "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
-            "experiences": "3+ years of professional experience in software engineering.",
-            "contact_information": {
-              "phone": "555-555-1234",
-              "email": "jobs@acmecorp.com"
-            }
-          },
-          {
-            "id": "3",
-            "company_logo": "../src/assets/Logo/netflix-4 1.png",
-            "job_title": "Data Analyst",
-            "company_name": "Acme Corporation",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $120,000",
-            "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
-            "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
-            "experiences": "3+ years of professional experience in software engineering.",
-            "contact_information": {
-              "phone": "555-555-1234",
-              "email": "jobs@acmecorp.com"
-            }
-          },
-          {
-            "id": "4",
-            "company_logo": "../src/assets/Logo/tesla-9 1.png",
-            "job_title": "UI/UX Designer",
-            "company_name": "Acme Corporation",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $120,000",
-            "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
-            "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
-            "experiences": "3+ years of professional experience in software engineering.",
-            "contact_information": {
-              "phone": "555-555-1234",
-              "email": "jobs@acmecorp.com"
-            }
-          },
-          {
-            "id": "5",
-            "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
-            "job_title": "Network Administrator",
-            "company_name": "Acme Corporation",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $120,000",
-            "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
-            "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
-            "experiences": "3+ years of professional experience in software engineering.",
-            "contact_information": {
-              "phone": "555-555-1234",
-              "email": "jobs@acmecorp.com"
-            }
-          },
-          {
-            "id": "6",
-            "company_logo": "../src/assets/Logo/netflix-4 1.png",
-            "job_title": "Game Developer",
-            "company_name": "Acme Corporation",
-            "remote_or_onsite": "Remote",
-            "location": "San Francisco, CA",
-            "fulltime_or_parttime": "Full-time",
-            "salary": "$100,000 - $120,000",
-            "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
-            "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
-            "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
-            "experiences": "3+ years of professional experience in software engineering.",
-            "contact_information": {
-              "phone": "555-555-1234",
-              "email": "jobs@acmecorp.com"
-            }
-          }
-          
-          
-          
-          
-          
-          
-    
+  {
+    "id": "1",
+    "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of professional experience in software engineering.",
+    "phone": "555-555-1234",
+    "email": "jobs@acmecorp.com"
+  },
+  {
+    "id": "2",
+    "company_logo": "../src/assets/Logo/google-1-1 1.png",
+    "job_title": "Web developer",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of professional experience in software engineering.",
+    "phone": "555-555-1234",
+    "email": "jobs@acmecorp.com"
+  },
+  {
+    "id": "3",
+    "company_logo": "../src/assets/Logo/netflix-4 1.png",
+    "job_title": "Data Analyst",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of professional experience in software engineering.",
+    "phone": "555-555-1234",
+    "email": "jobs@acmecorp.com"
+  },
+  {
+    "id": "4",
+    "company_logo": "../src/assets/Logo/tesla-9 1.png",
+    "job_title": "UI/UX Designer",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of professional experience in software engineering.",
+    "phone": "555-555-1234",
+    "email": "jobs@acmecorp.com"
+  },
+  {
+    "id": "5",
+    "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
+    "job_title": "Network Administrator",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of professional experience in software engineering.",
+    "phone": "555-555-1234",
+    "email": "jobs@acmecorp.com"
+  },
+  {
+    "id": "6",
+    "company_logo": "../src/assets/Logo/netflix-4 1.png",
+    "job_title": "Game Developer",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop and maintain high-quality software code, work with cross-functional teams to deliver new features, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of professional experience in software engineering.",
+    "phone": "555-555-1234",
+    "email": "jobs@acmecorp.com"
+  }
 ]
