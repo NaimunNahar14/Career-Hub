@@ -3,6 +3,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import JobList from '../JobList';
 import Card from '../Card';
 import JobDetail from '../JobDetail';
+import './Home.css';
 
 const Home = () => {
     
@@ -54,7 +55,7 @@ const Home = () => {
                     <h1 className='mb-8'>Job Category List</h1>
                     <p className='mb-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     <div>
-                        <div className=' grid grid-cols-4 justify-items-center mb-4'>
+                        <div className='joblist grid grid-cols-4 justify-items-center mb-4'>
                             {
                                 Lists.map((List) => (
                                     <JobList
@@ -75,7 +76,7 @@ const Home = () => {
                 <div className='inline-flex flex-col items-center justify-center w-full h-full'>
                     <h1>Featured Jobs</h1>
                     <p className='mt-2 mb-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='grid grid-cols-2 justify-items-center mb-4 gap-4'>
+                    <div className='joblist grid grid-cols-2 justify-items-center mb-4 gap-4'>
                         {
                             cards.slice(0, showAll ? 6 : 4).map(card =>
                                 <Card
