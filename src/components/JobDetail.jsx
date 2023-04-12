@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetail = () => {
+
     const {Id} = useParams();
      const [Data, setData] = useState({})
      const jobs = useLoaderData();

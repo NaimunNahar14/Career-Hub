@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import JobList from '../JobList';
 import Card from '../Card';
+import JobDetail from '../JobDetail';
 
 const Home = () => {
+    
     const [showAll, setShowAll] = useState(false);
     const handleShowAll = () => {
         setShowAll(true);
@@ -43,7 +45,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='w-2/4'>
-                    <img src="/src/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+                
+                    <img src="https://i.ibb.co/xJNCMGb/P3-OLGJ1-copy-1.png" alt="" />
                 </div>
             </div>
             <div className='mt-4 flex flex-col items-center  md:flex-row'>
@@ -78,8 +81,10 @@ const Home = () => {
                                 <Card
                                 key={card.id}
                                 card={card}
+                               
                                 
                                 ></Card>
+                                
                                 
                                 )
                         }

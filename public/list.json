@@ -1,25 +1,25 @@
 [
     {
       "id": "6433f56a63a9acd5b3c3a6a7",
-      "logo": "../src/assets/Icons/accounts 1.png",
+      "logo": "https://i.ibb.co/3yXk0M9/accounts-1.png",
       "name": "Accounting",
       "jobsAvailable": 107
     },
     {
       "id": "6433f56a584a592bdc4b4db5",
-      "logo": "../src/assets/Icons/business 1.png",
+      "logo": "https://i.ibb.co/4KRPG8t/business-1.png",
       "name": "Business",
       "jobsAvailable": 150
     },
     {
       "id": "6433f56a5278b7cc3a043e91",
-      "logo": "../src/assets/Icons/chip 1.png",
+      "logo": "https://i.ibb.co/wBc8z0W/chip-1.png",
       "name": "Engineering",
       "jobsAvailable": 200
     },
     {
       "id": "6433f56a503a72df28fe38bc",
-      "logo": "../src/assets/Icons/social-media 1.png",
+      "logo": "https://i.ibb.co/GnjDsPT/social-media-1.png",
       "name": "Marketing",
       "jobsAvailable": 170
     }
