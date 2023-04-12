@@ -5,7 +5,7 @@ const JobDetail = () => {
 
     const {Id} = useParams();
      const [Data, setData] = useState({})
-     const jobs = useLoaderData();
+     const jobs = useLoaderData(); 
   
     useEffect(() => {
         if(jobs){
@@ -37,7 +37,7 @@ const JobDetail = () => {
                         <h3><span>Phone</span>: +88013457889</h3>
                         <h3><span>E-mail</span>: jobs@acmecorp.com</h3>
                         <h3><span>Location</span>: {Data.location}</h3>
-                    <button className='mb-3 bg-blue-400'>Apply Now</button>
+                    <button onClick={handlebtn} className='mb-3 bg-blue-400'>Apply Now</button>
                     
                     </div>
                 </div>
