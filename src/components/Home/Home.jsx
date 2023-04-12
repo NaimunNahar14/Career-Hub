@@ -4,6 +4,11 @@ import JobList from '../JobList';
 import Card from '../Card';
 
 const Home = () => {
+    const [showAll, setShowAll] = useState(false);
+    const handleShowAll = () => {
+        setShowAll(true);
+      };
+    
     const cards = useLoaderData();
     const [Lists, setLists] = useState([]);
     useEffect(() => {
@@ -69,7 +74,7 @@ const Home = () => {
                     <p className='mt-2 mb-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     <div className='grid grid-cols-2 justify-items-center mb-4 gap-4'>
                         {
-                            cards.map(card =>
+                            cards.slice(0, showAll ? 6 : 4).map(card =>
                                 <Card
                                 key={card.id}
                                 card={card}
@@ -79,7 +84,10 @@ const Home = () => {
                                 )
                         }
                     </div>
+                    <span onClick={handleShowAll}>
                     <button  className='mb-3 bg-blue-400'>See All</button>
+                    </span>
+                
                     
 
 
